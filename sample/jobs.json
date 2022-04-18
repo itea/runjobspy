@@ -1,0 +1,15 @@
+[{
+    "workdir": "..",
+    "timeout": 300,
+    "command": "ls",
+    "args": [ "-l" ]
+}, {
+    "timeout": 300,
+    "command": "cat",
+    "args": [ "jobs.json" ]
+}, {
+    "workdir": "no-master",
+    "timeout": 300,
+    "command": "cat",
+    "args": [ "jobs.json" ]
+}]
